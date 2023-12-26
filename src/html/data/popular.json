@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Big Sur",
+        "subtitle": "California, USA",
+        "img": "01.jpg"
+    },
+    {
+        "title": "Prescott",
+        "subtitle": "Arizona, USA",
+        "img": "02.jpg"
+    },
+    {
+        "title": "Fort Mayers",
+        "subtitle": "Florida, USA",
+        "img": "03.jpg"
+    },
+    {
+        "title": "Tucson",
+        "subtitle": "Arizona, USA",
+        "img": "04.jpg"
+    },
+    {
+        "title": "St. Joseph",
+        "subtitle": "Michigan, USA",
+        "img": "05.jpg"
+    },
+    {
+        "title": "Madrid",
+        "subtitle": "Spain",
+        "img": "06.jpg"
+    }
+]

@@ -1,0 +1,47 @@
+@mixin mediaLaptop {
+	@media (max-width: 1439px) {
+        @content;
+    }
+}
+
+@mixin mediaTablet {
+	@media (max-width: 1023px) {
+        @content;
+    }
+}
+
+@mixin mediaTabletS {
+	@media (max-width: 839px) {
+        @content;
+    }
+}
+
+@mixin mediaMobile {
+	@media (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin mediaMobileS {
+	@media (max-width: 475px) {
+        @content;
+    }
+}
+
+@mixin mediaMobileXS {
+	@media (max-width: 374px) {
+        @content;
+    }
+}
+
+@mixin info {
+    display: flex;
+    gap: 4px;
+
+    & span {
+        color: var(--subtext-color);
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+

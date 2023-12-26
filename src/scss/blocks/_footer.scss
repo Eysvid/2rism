@@ -1,0 +1,178 @@
+.footer {
+	color: var(--text-color);
+	padding: clamp(30px, 0.268rem + 8.04vw, 120px) 0;
+}
+
+.footer__row {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 64px;
+
+	@include mediaTablet {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+.footer__info {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	@include mediaMobile {
+		align-items: center;
+	}
+}
+
+.footer__text {
+	width: 354px;
+	color: var(--subtext-color);
+	font-size: clamp(14px, 0.839rem + 0.18vw, 16px);
+	font-weight: 400;
+
+	@include mediaMobile {
+		text-align: center;
+	}
+}
+
+.footer__socials {
+	margin-top: 16px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 32px;
+	
+	a {
+		transition: transform 0.2s ease;
+	}
+
+	a:hover {
+		transform: scale(1.2);
+	}
+}
+
+.footer__nav {
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+	gap: 64px;
+
+	@include mediaTablet {
+		grid-row-start: 1;
+		gap: 32px;
+	}
+}
+
+.nav__column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 20px;
+
+}
+
+.nav__column__title {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.nav__column__list {
+	color: var(--subtext-color);
+	font-size: 13px;
+	font-weight: 400;
+
+	& li+li {
+		padding-top: 12px;
+	}
+
+	& a:hover {
+		color: var(--text-color);
+	}
+}
+
+.footer__subs {
+	width: 388px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	@include mediaTablet {
+		width: unset;
+		flex-direction: row;
+		align-items: center;
+		grid-row-start: 2;
+	}
+
+	@include mediaMobile {
+		flex-direction: column;
+	}
+	
+}
+
+.subs__title {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.subs__form {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.subs__label {
+	padding: 16px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+
+	& img {
+		padding-top: 3px;
+	}
+}
+
+.subs__label-content {
+	position: relative;
+
+	
+	& input {
+		width: 100%;
+		font-weight: 500;
+		font-size: 16px;
+		color: var(--text-color);
+		border: none;
+		border-bottom: 1px solid #fff;
+		outline: none;
+		background: transparent;
+	  }
+
+	& span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-size: 16px;
+		color: var(--cardtext-color);
+		pointer-events: none;
+		transition: .5s;
+	  }
+	  
+	  & input:focus ~ span,
+	  & input:valid ~ span {
+		top: -20px;
+		left: 0;
+		color: var(--cardtext-color);
+		font-size: 12px;
+	  }
+}
+
+.subs__btn {
+	padding: 24px;
+	border-radius: 12px;
+	background: var(--accent);
+
+	& *{
+		display: flex;
+	}
+
+	&:hover {
+		opacity: 0.8;
+	}
+}

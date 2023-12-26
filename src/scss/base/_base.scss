@@ -1,0 +1,58 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--page-color);
+	font-family: var(--font-main);
+}
+
+.container {
+	padding: 0 var(--container-padding);
+	max-width: var(--container-width);
+	margin: 0 auto;
+}
+
+a {
+	color: var(--page-bg);
+}
+
+.active {
+	opacity: 1 !important;
+}
+
+.title-2 {
+    display: flex;
+	color: var(--text-color);
+	font-size: clamp(22px, 1.196rem + 0.89vw, 32px);
+	font-weight: 600;
+}
+
+.main__title {
+    display: flex;
+    flex-direction: column;
+
+    @include mediaLaptop {
+        align-items: center;
+    }
+}
+
+.title-view {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 12px;
+    background: #F6F4FF;
+    padding: 10px;
+    gap: 4px;
+
+    & h3 {
+        color: var(--accent);
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

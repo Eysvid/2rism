@@ -1,0 +1,101 @@
+<header class="header">
+    <div class="container">
+        <div class="header__column">
+            <div class="header__nav">
+                <a href="#!" class="nav__logo">
+                    <img src="./img/logo/logo.svg" alt="logo">
+                </a>
+                <nav class="nav__list">
+                    <ul>
+                        <li><a href="#!" class="active">Home</a></li>
+                        <li><a href="#!">Hotels</a></li>
+                        <li><a href="#!">Restaurants</a></li>
+                        <li><a href="#!">Tours</a></li>
+                        <li><a href="#!">Destinations</a></li>
+                        <li><a href="#!">Activities</a></li>
+                        <li><a href="#!">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="nav__user">
+                    <div class="user__name">
+                        <p>Holla,</p>
+                        <h3>Ales Nesetril</h3>
+                    </div>
+                    <div class="user__avatar">
+                        <img src="./img/header/user.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="nav__menu-icon">
+                    <button class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="header__title">
+                <div class="glitch-wrapper">
+                    <div class="glitch" data-glitch="Discover the most engaging places">Discover the most engaging places</div>
+                 </div>
+                <button class="title__btn">
+                    <img src="./img/icons/global.svg" alt="global">
+                    <h3>Discover on 3D Globe</h3>
+                </button>
+            </div>
+            <form class="search_form" action="#!">
+                <label for="autoComplete" class="form__label">
+                    <div class="label__img">
+                        <img src="./img/icons/map.svg" alt="map">
+                    </div>
+                    <div class="label__content">
+                        <span>Locations</span>
+                        <input id="autoComplete" type="text" class="form__input" placeholder="Explore nearby destinations" autocomplete="off">
+                    </div>
+                </label>
+                <label for="activity" class="form__label">
+                    <div class="label__img">
+                        <img src="./img/icons/activity.svg" alt="activity">
+                    </div>
+                    <div class="label__content">
+                        <span>Activity</span>
+                        <select id="activity" class="form__select">
+                            <option value="none" selected disabled></option>
+                            <option value="1">Sailing</option>
+                            <option value="2">Climbing</option>
+                            <option value="3">Skiing</option>
+                            <option value="4">Hiking</option>
+                        </select>
+                    </div>
+                </label>
+                <label for="datepicker" class="form__label">
+                    <div class="label__img">
+                        <img src="./img/icons/calendar.svg" alt="calendar">
+                    </div>
+                    <div class="label__content">
+                        <span>When</span>
+                        <input id="datepicker" type="text" class="form__input" placeholder="Choose a Date">
+                    </div>
+                </label>
+                <label for="guests" class="form__label">
+                    <div class="label__img">
+                        <img src="./img/icons/guests.svg" alt="guests">
+                    </div>
+                    <div class="label__content">
+                        <span>Guests</span>
+                        <select id="activity" class="form__select">
+                            <option value="none" selected disabled></option>
+                            <option value="1">1 guest</option>
+                            <option value="2">2 guests</option>
+                            <option value="3">3 guests</option>
+                            <option value="4">More than 3</option>
+                        </select>
+                    </div>
+                </label>
+                <button class="search_btn">
+                    <img src="./img/icons/search.svg" alt="search">
+                </button>
+            </form>
+        </div>
+    </div>
+</header>
+@@include('mobile-nav.html')

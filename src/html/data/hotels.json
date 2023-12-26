@@ -1,0 +1,26 @@
+[
+    {
+        "stars": 5,
+        "title": "Monastero Santa Rosa Hotel & Spa",
+        "subtitle": "Salerno, Italy",
+        "img": "01.jpg"
+    },
+    {
+        "stars": 3,
+        "title": "Grand Hotel Tremezzo",
+        "subtitle": "Lake Como, Italy",
+        "img": "02.jpg"
+    },
+    {
+        "stars": 4,
+        "title": "The Oberoi Udaivilas, Udaipur",
+        "subtitle": "Udaipur, India",
+        "img": "03.jpg"
+    },
+    {
+        "stars": 3,
+        "title": "AKA Beverly Hills",
+        "subtitle": "Los Angeles, United States",
+        "img": "04.jpg"
+    }
+]

@@ -1,0 +1,16 @@
+<section class="hotels">
+    <div class="container">
+        <div class="hotels__column">
+            <div class="main__title">
+                <h2 class="title-2">Hotels and Restaurants</h2>
+                <a href="#!" class="title-view">
+                    <h3>View all</h3>
+                    <img src="./img/icons/arrow-more.svg" alt="arrow-more">
+                </a>
+            </div>
+            <div class="hotels__content">
+                @@loop("./../cards/hotels__card.html", "./data/hotels.json")
+            </div>
+        </div>
+    </div>
+</section>

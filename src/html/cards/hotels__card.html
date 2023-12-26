@@ -1,0 +1,26 @@
+<a href="#!" class="hotels__card">
+    <div class="hotels__card-img">
+        <img src="./img/hotels/@@img" alt="hotel-img`">
+    </div>
+    <div class="hotels__card-content">
+        <h3 class="hotels__card-content-title">@@title</h3>
+        <div class="hotels__card-content-subtitle">
+            <div class="subtitle__items">
+                <img src="./img/icons/map-pin-line.svg" alt="pin">
+                <h4>@@subtitle</h4>
+            </div>
+            <span>
+                @@for (var i = 0; i < context.stars; i++)
+                {
+                     <img src="./img/icons/star.svg" alt="star">
+                }
+                @@if (context.stars < 5) {
+                    @@for (var i = 0; i < 5 - context.stars; i++)
+                    {
+                         <img src="./img/icons/star-line.svg" alt="star-line">
+                    }
+                }
+            </span>
+        </div>
+    </div>
+</a>
