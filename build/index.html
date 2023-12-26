@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+		rel="stylesheet" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<title>2rism</title>
+</head>
+
+<body>
+	<header class="header">
+    <div class="container">
+        <div class="header__column">
+            <div class="header__nav">
+                <a href="#!" class="nav__logo">
+                    <img src="./img/logo/logo.svg" alt="logo">
+                </a>
+                <nav class="nav__list">
+                    <ul>
+                        <li><a href="#!" class="active">Home</a></li>
+                        <li><a href="#!">Hotels</a></li>
+                        <li><a href="#!">Restaurants</a></li>
+                        <li><a href="#!">Tours</a></li>
+                        <li><a href="#!">Destinations</a></li>
+                        <li><a href="#!">Activities</a></li>
+                        <li><a href="#!">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="nav__user">
+                    <div class="user__name">
+                        <p>Holla,</p>
+                        <h3>Ales Nesetril</h3>
+                    </div>
+                    <div class="user__avatar">
+                        <img src="./img/header/user.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="nav__menu-icon">
+                    <button class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="header__title">
+                <div class="glitch-wrapper">
+                    <div class="glitch" data-glitch="Discover the most engaging places">Discover the most engaging places</div>
+                 </div>
+                <button class="title__btn">
+                    <img src="./img/icons/global.svg" alt="global">
+                    <h3>Discover on 3D Globe</h3>
+                </button>
+            </div>
+            <form class="search_form" action="#!">
+                <label for="autoComplete" class="form__label">
+                    <div class="label__img">
+                        <img src="./img/icons/map.svg" alt="map">
+                    </div>
+                    <div class="label__content">
+                        <span>Locations</span>
+                        <input id="autoComplete" type="text" class="form__input" placeholder="Explore nearby destinations" autocomplete="off">
+                    </div>
+                </label>
+                <label for="activity" class="form__label">
+                    <div class="label__img">
+                        <img src="./img/icons/activity.svg" alt="activity">
+                    </div>
+                    <div class="label__content">
+                        <span>Activity</span>
+                        <select id="activity" class="form__select">
+                            <option value="none" selected disabled></option>
+                            <option value="1">Sailing</option>
+                            <option value="2">Climbing</option>
+                            <option value="3">Skiing</option>
+                            <option value="4">Hiking</option>
+                        </select>
+                    </div>
+                </label>
+                <label for="datepicker" class="form__label">
+                    <div class="label__img">
+                        <img src="./img/icons/calendar.svg" alt="calendar">
+                    </div>
+                    <div class="label__content">
+                        <span>When</span>
+                        <input id="datepicker" type="text" class="form__input" placeholder="Choose a Date">
+                    </div>
+                </label>
+                <label for="guests" class="form__label">
+                    <div class="label__img">
+                        <img src="./img/icons/guests.svg" alt="guests">
+                    </div>
+                    <div class="label__content">
+                        <span>Guests</span>
+                        <select id="activity" class="form__select">
+                            <option value="none" selected disabled></option>
+                            <option value="1">1 guest</option>
+                            <option value="2">2 guests</option>
+                            <option value="3">3 guests</option>
+                            <option value="4">More than 3</option>
+                        </select>
+                    </div>
+                </label>
+                <button class="search_btn">
+                    <img src="./img/icons/search.svg" alt="search">
+                </button>
+            </form>
+        </div>
+    </div>
+</header>
+<div class="mobile-nav">
+	<ul class="mobile-nav__list">
+		<li><a href="#!" class="active">Home</a></li>
+		<li><a href="#!">Hotels</a></li>
+		<li><a href="#!">Restaurants</a></li>
+		<li><a href="#!">Tours</a></li>
+		<li><a href="#!">Destinations</a></li>
+		<li><a href="#!">Activities</a></li>
+		<li><a href="#!">Contact</a></li>
+	</ul>
+</div>
+	<main>
+		<section class="popular">
+    <div class="container">
+        <div class="popular__column">
+            <div class="main__title">
+                <h2 class="title-2">Popular Destinations</h2>
+            </div>
+            <div class="popular__content">
+                <a href="#!" class="popular__card">
+    <div class="popular__card-img">
+        <img src="./img/popular/01.jpg" alt="img-item">
+    </div>
+    <div class="popular__card-content">
+        <h3 class="popular__card-content-title">Big Sur</h3>
+        <h4 class="popular__card-content-subtitle">California, USA</h4>
+    </div>
+</a><a href="#!" class="popular__card">
+    <div class="popular__card-img">
+        <img src="./img/popular/02.jpg" alt="img-item">
+    </div>
+    <div class="popular__card-content">
+        <h3 class="popular__card-content-title">Prescott</h3>
+        <h4 class="popular__card-content-subtitle">Arizona, USA</h4>
+    </div>
+</a><a href="#!" class="popular__card">
+    <div class="popular__card-img">
+        <img src="./img/popular/03.jpg" alt="img-item">
+    </div>
+    <div class="popular__card-content">
+        <h3 class="popular__card-content-title">Fort Mayers</h3>
+        <h4 class="popular__card-content-subtitle">Florida, USA</h4>
+    </div>
+</a><a href="#!" class="popular__card">
+    <div class="popular__card-img">
+        <img src="./img/popular/04.jpg" alt="img-item">
+    </div>
+    <div class="popular__card-content">
+        <h3 class="popular__card-content-title">Tucson</h3>
+        <h4 class="popular__card-content-subtitle">Arizona, USA</h4>
+    </div>
+</a><a href="#!" class="popular__card">
+    <div class="popular__card-img">
+        <img src="./img/popular/05.jpg" alt="img-item">
+    </div>
+    <div class="popular__card-content">
+        <h3 class="popular__card-content-title">St. Joseph</h3>
+        <h4 class="popular__card-content-subtitle">Michigan, USA</h4>
+    </div>
+</a><a href="#!" class="popular__card">
+    <div class="popular__card-img">
+        <img src="./img/popular/06.jpg" alt="img-item">
+    </div>
+    <div class="popular__card-content">
+        <h3 class="popular__card-content-title">Madrid</h3>
+        <h4 class="popular__card-content-subtitle">Spain</h4>
+    </div>
+</a>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="hotels">
+    <div class="container">
+        <div class="hotels__column">
+            <div class="main__title">
+                <h2 class="title-2">Hotels and Restaurants</h2>
+                <a href="#!" class="title-view">
+                    <h3>View all</h3>
+                    <img src="./img/icons/arrow-more.svg" alt="arrow-more">
+                </a>
+            </div>
+            <div class="hotels__content">
+                <a href="#!" class="hotels__card">
+    <div class="hotels__card-img">
+        <img src="./img/hotels/01.jpg" alt="hotel-img`">
+    </div>
+    <div class="hotels__card-content">
+        <h3 class="hotels__card-content-title">Monastero Santa Rosa Hotel & Spa</h3>
+        <div class="hotels__card-content-subtitle">
+            <div class="subtitle__items">
+                <img src="./img/icons/map-pin-line.svg" alt="pin">
+                <h4>Salerno, Italy</h4>
+            </div>
+            <span>
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                
+            </span>
+        </div>
+    </div>
+</a><a href="#!" class="hotels__card">
+    <div class="hotels__card-img">
+        <img src="./img/hotels/02.jpg" alt="hotel-img`">
+    </div>
+    <div class="hotels__card-content">
+        <h3 class="hotels__card-content-title">Grand Hotel Tremezzo</h3>
+        <div class="hotels__card-content-subtitle">
+            <div class="subtitle__items">
+                <img src="./img/icons/map-pin-line.svg" alt="pin">
+                <h4>Lake Como, Italy</h4>
+            </div>
+            <span>
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                
+                    
+                         <img src="./img/icons/star-line.svg" alt="star-line">
+                    
+                         <img src="./img/icons/star-line.svg" alt="star-line">
+                    
+                
+            </span>
+        </div>
+    </div>
+</a><a href="#!" class="hotels__card">
+    <div class="hotels__card-img">
+        <img src="./img/hotels/03.jpg" alt="hotel-img`">
+    </div>
+    <div class="hotels__card-content">
+        <h3 class="hotels__card-content-title">The Oberoi Udaivilas, Udaipur</h3>
+        <div class="hotels__card-content-subtitle">
+            <div class="subtitle__items">
+                <img src="./img/icons/map-pin-line.svg" alt="pin">
+                <h4>Udaipur, India</h4>
+            </div>
+            <span>
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                
+                    
+                         <img src="./img/icons/star-line.svg" alt="star-line">
+                    
+                
+            </span>
+        </div>
+    </div>
+</a><a href="#!" class="hotels__card">
+    <div class="hotels__card-img">
+        <img src="./img/hotels/04.jpg" alt="hotel-img`">
+    </div>
+    <div class="hotels__card-content">
+        <h3 class="hotels__card-content-title">AKA Beverly Hills</h3>
+        <div class="hotels__card-content-subtitle">
+            <div class="subtitle__items">
+                <img src="./img/icons/map-pin-line.svg" alt="pin">
+                <h4>Los Angeles, United States</h4>
+            </div>
+            <span>
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                     <img src="./img/icons/star.svg" alt="star">
+                
+                
+                    
+                         <img src="./img/icons/star-line.svg" alt="star-line">
+                    
+                         <img src="./img/icons/star-line.svg" alt="star-line">
+                    
+                
+            </span>
+        </div>
+    </div>
+</a>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="travel">
+    <div class="container">
+        <div class="travel__column">
+            <div class="main__title">
+                <h2 class="title-2">Travel Tips and Advice</h2>
+                <a href="#!" class="title-view">
+                    <h3>View all</h3>
+                    <img src="./img/icons/arrow-more.svg" alt="arrow-more">
+                </a>
+            </div>
+            <div class="travel__content">
+                <div class="travel__card">
+                    <div class="travel__card-img">
+                        <img src="./img/travel/01.jpg" alt="img">
+                    </div>
+                    <div class="travel__card-content">
+                        <h3 class="content__title">East Village Ice Cream Crawl</h3>
+                        <h4 class="content__subtitle">We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. At each ice cream store we'll explore the story behind the business and see what makes the ice cream unique as you savor every…</h4>
+                        <div class="content__info">
+                            <div class="info__day">
+                                <img src="./img/icons/calendar-gray.svg" alt="calendar">
+                                <span>Today</span>
+                            </div>
+                            <div class="info__user">
+                                <img src="./img/icons/user.svg" alt="user">
+                                <span>Maria Philips</span>
+                            </div>
+                            <div class="info__comment">
+                                <img src="./img/icons/comment.svg" alt="comment">
+                                <span>2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="travel__card">
+                    <div class="travel__card-img">
+                        <img src="./img/travel/02.jpg" alt="img">
+                    </div>
+                    <div class="travel__card-content">
+                        <h3 class="content__title">Brooklyn Bridge cinematic photo walk</h3>
+                        <h4 class="content__subtitle">This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always open to capture clients at different locations upon request for an additional charge.</h4>
+                        <div class="content__info">
+                            <div class="info__day">
+                                <img src="./img/icons/calendar-gray.svg" alt="calendar">
+                                <span>Today</span>
+                            </div>
+                            <div class="info__user">
+                                <img src="./img/icons/user.svg" alt="user">
+                                <span>James Calzoni</span>
+                            </div>
+                            <div class="info__comment">
+                                <img src="./img/icons/comment.svg" alt="comment">
+                                <span>17</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="activities">
+    <div class="container">
+        <div class="activities__column">
+            <div class="main__title">
+                <h2 class="title-2">Activities</h2>
+                <a href="#!" class="title-view">
+                    <h3>View all</h3>
+                    <img src="./img/icons/arrow-more.svg" alt="arrow-more">
+                </a>
+            </div>
+            <div class="activities__content">
+                <div class="activities__card">
+                    <div class="card__img">
+                        <img src="./img/activity/01.jpg" alt="sailing">
+                    </div>
+                    <h3 class="card__title">Sailing</h3>
+                </div>
+                <div class="activities__card">
+                    <div class="card__img">
+                        <img src="./img/activity/02.jpg" alt="climbing">
+                    </div>
+                    <h3 class="card__title">Climbing</h3>
+                </div>
+                <div class="activities__card">
+                    <div class="card__img">
+                        <img src="./img/activity/03.jpg" alt="skiing">
+                    </div>
+                    <h3 class="card__title">Skiing</h3>
+                </div>
+                <div class="activities__card">
+                    <div class="card__img">
+                        <img src="./img/activity/04.jpg" alt="Hiking">
+                    </div>
+                    <h3 class="card__title">Hiking</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="about">
+    <div class="container">
+        <div class="about__row">
+            <div class="about__content">
+                <h2 class="title-2">About Us</h2>
+                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                <a href="#!" class="title-view">
+                    <h3>Read more</h3>
+                    <img src="./img/icons/arrow-more.svg" alt="arrow-more">
+                </a>
+            </div>
+            <div class="about__img">
+                <img src="./img/about-us/about.jpg" alt="about us">
+            </div>
+        </div>
+    </div>
+</section>
+
+	</main>
+	<footer class="footer">
+	<div class="container">
+		<div class="footer__row">
+			<div class="footer__info">
+				<div class="footer__logo">
+					<img src="./img/logo/logo-black.svg" alt="logo">
+				</div>
+				<div class="footer__text">
+					<p>We always make our customers happy by providing as many choises as possible</p>
+				</div>
+				<div class="footer__socials">
+					<a href="#!">
+						<img src="./img/socials/facebook.svg" alt="facebook">
+					</a>
+					<a href="#!">
+						<img src="./img/socials/twitter.svg" alt="twitter">
+					</a>
+					<a href="#!">
+						<img src="./img/socials/instagram.svg" alt="instagram">
+					</a>
+				</div>
+			</div>
+			<div class="footer__nav">
+				<div class="nav__column">
+					<h3 class="nav__column__title">About</h3>
+					<nav class="nav__column__list">
+						<ul>
+							<li><a href="#!">About Us</a></li>
+							<li><a href="#!">Features</a></li>
+							<li><a href="#!">News</a></li>
+							<li><a href="#!">Menu</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="nav__column">
+					<h3 class="nav__column__title">Company</h3>
+					<nav class="nav__column__list">
+						<ul>
+							<li><a href="#!">Why 2rism</a></li>
+							<li><a href="#!">Partner With Us</a></li>
+							<li><a href="#!">FAQ</a></li>
+							<li><a href="#!">Blog</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="nav__column">
+					<h3 class="nav__column__title">Support</h3>
+					<nav class="nav__column__list">
+						<ul>
+							<li><a href="#!">Account</a></li>
+							<li><a href="#!">Support Center</a></li>
+							<li><a href="#!">Feedback</a></li>
+							<li><a href="#!">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="footer__subs">
+				<div class="subs__title">
+					<h3>Subscribe on our destination review newsletters</h3>
+				</div>
+				<form action="#!" class="subs__form">
+					<label for="" class="subs__label">
+						<div class="subs__label-img">
+							<img src="./img/icons/email.svg" alt="email">
+						</div>
+						<div class="subs__label-content">
+							<input type="text" name="" required>
+							<span>Your Email</span>
+						</div>
+					</label>
+					<button class="subs__btn">
+						<img src="./img/icons/arrow-right-form.svg" alt="arrow-right">
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
